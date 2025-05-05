@@ -1,13 +1,47 @@
 # Spectral_Ranking
-Reproduction code for paper Spectral Ranking Inference (https://arxiv.org/abs/2308.02918).
 
-## Simulation ##
-Under the folder ``Simulation/FigureEC1-EC3&TableEC1-EC3". It contains the code for reproduce the result in Figure EC.1 to Figure EC.3 and Table EC.1 to Table EC.3. There is a detailed instruction on the top of this file. The settings are presented in lines 15-23. The outputs for different regimes are among lines 201-221.
+This repository contains the reproduction code for the paper  
+**Spectral Ranking Inference**  
+[arXiv:2308.02918](https://arxiv.org/abs/2308.02918)
 
-Under the folder ``Simulation/TableEC4.R". It contains the code for reproduce the result in Table EC.4. The outputs are in line 272.
+## 📁 Simulation
 
-Under the folder ``Simulation/TableEC5.R". It contains the code for reproduce the result in Table EC.5. The outputs are in line 265.
+### `Simulation/FigureEC1-EC3&TableEC1-EC3/`
+This folder contains code to reproduce the results for:
+- **Figure EC.1 to EC.3**
+- **Table EC.1 to EC.3**
 
-Under the folder ``Simulation/TableEC6.R". It contains the code for reproduce the result in Table EC.6. The outputs are in line 169-174.
+**Usage Notes:**
+- Simulation settings: see lines `15–23`
+- Output generation: see lines `201–221`
+- Additional instructions are included at the top of the script
+
+---
+
+### `Simulation/TableEC4.R`
+Reproduces results for **Table EC.4**
+
+- Output is generated at **line 272**
+
+---
+
+### `Simulation/TableEC5.R`
+Reproduces results for **Table EC.5**
+
+- Output is generated at **line 265**
+
+---
+
+### `Simulation/TableEC6.R`
+Reproduces results for **Table EC.6**
+
+- Output is generated between **lines 169–174**
+
+---
+
+## 📌 Notes
+For all settings, uncommenting lines `112–115` enables the oracle version of the estimator.
+
+---
 
 
