@@ -46,4 +46,11 @@ For all settings, uncommenting lines `112–115` enables the oracle version of t
 
 ## 📁 Real Data
 
-### `Real_Data/Journal...`
+### `Real_Data/joural`
+
+Reproduces results for **Table 1**
+
+### `Real_Data/Movie`
+
+Reproduces results for **Table 2**
+
